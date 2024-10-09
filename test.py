@@ -104,7 +104,7 @@ def process_company_in_chunks_dynamic(companies, threshold=85):
 
 
 ############################################### END FUNCTIONS #################################################
-
+#empezamos con la limpieza
 # 1: Cargamos el dataset con pandas
 raw_data = pd.read_csv('data/rotten_tomatoes_movies.csv')
 amount_dirty_data = raw_data.shape
