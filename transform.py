@@ -184,6 +184,7 @@ raw_data['production_company'] = process_company(companies_list, threshold=85)
 clean_data = raw_data
 
 # 11: load data
+
 clean_data.to_csv("data/rotten_tomatoes_movies_clean.csv", index = False)
 
 show(clean_data.head(200))
